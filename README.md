@@ -4,15 +4,15 @@
 <p><i>Regular Expression [...] is a sequence of characters that define a search pattern. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation.</i></p>
 <h3>Demo</h3>
 <ul>
-  <li>Having Sap Commodity Codes embraced within a string</li>
+  <li>Having Sap Commodity Codes (comming from the system data extract) embraced within a string</li>
   <br>
   <img src="images/string.JPG">
   <br><br>
-  <li>And dictionary with pairs Regex key: Spend Cluster value.</li>
+  <li>And dictionary with pairs Regex key: Spend Cluster value (written by me)</li>
   <br>
   <img src="images/re.JPG">
   <br><br>
-  <li>I can decode the spend cluster for upcoming Sap Commodity Codes.</li>
+  <li>Script can decode the Spend Cluster (defined by me) for upcoming Sap Commodity Codes.</li>
   <br>
   <img src="images/outcome.jpg">
   <br><br>
