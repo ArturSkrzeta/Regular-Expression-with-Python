@@ -5,7 +5,7 @@
 <h3>Demo</h3>
 <ul>
   <li>Having Sap Commodity Codes embraced within a string</li>
-  <div><img src="images/string.JPG"></div>
+  <div style="margin-top:10px;"><img src="images/string.JPG"></div>
   <li>And dictionary with pairs Regular Expression key: spend cluster value.</li>
   <div><img src="images/re.JPG"></div>
   <li>I can decode the spend cluster for upcoming Sap Commodity Codes.</li>
