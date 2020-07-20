@@ -7,3 +7,4 @@
   <li>...</li>
   <li>...</li>
 </ul>
+<img src="images/outcome.jpg">
