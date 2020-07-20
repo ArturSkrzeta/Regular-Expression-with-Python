@@ -22,5 +22,5 @@
 <ul>
   <li>I could use Regex to define searching pattern.</li>
   <li>When a specific Sap Commodity Code matches the pattern, script can map it with appropriate Spend Cluster using my_dict Dictionary.</li>
-  <li>We can treat the script as semi-Machine Learning programm beacause with Regex I teach script to which pattern classify what SAP Commodity Code</li>
+  <li>We can treat the script as semi-Machine Learning programm beacause with Regex I teach script to what pattern classify which SAP Commodity Code.</li>
 </ul>
