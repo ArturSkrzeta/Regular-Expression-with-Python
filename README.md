@@ -6,9 +6,10 @@
 <ul>
   <li>Having Sap Commodity Codes embraced within a string</li>
   <div><img src="images/string.JPG"></div>
-  <li>And dictionary with pairs: Regular Expression key - spend cluster</li>
+  <li>And dictionary with pairs Regular Expression key: spend cluster value.</li>
   <div><img src="images/re.JPG"></div>
-  <li>I can decode the spend cluster for new coming in Sap Commodity Codes</li>
+  <li>I can decode the spend cluster for upcoming Sap Commodity Codes.</li>
   <div><img src="images/outcome.jpg"></div>
+  <li>We can see 3 codes belog to Office Supplies, 1 to Office Suplies and 1 to Information Technology</li>
 </ul>
 
