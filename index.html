@@ -47,8 +47,9 @@
 								<div class="container">
 									<header class="major">
 										<h2>Spend Qualification with RegEx</h2>
-										<h3>Intro</h3>
-										<p>Bulk mailing is always the case for the automation. With Python, I can sent personalized emails for many recipients.</p>
+										<p>Due to wikipedia:</p>
+										<p><i>Regular Expression [...] is a sequence of characters that define a search pattern.
+											Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation.</i></p>
 									</header>
 								</div>
 							</section>
@@ -68,14 +69,29 @@
 							<section id="three">
 								<div class="container">
 									<h3>Demo</h3>
-									<p>Email:</p>
-									<img src="images/email.JPG" width="780">
+									<p>Workflow:</p>
+
 									<ul>
-										<li>Mails are divided into chunks.</li>
-									  <li>Each chunk can be distributed between recipients every 60 seconds.</li>
-									  <li>At first, mails are being saved to drafts from where they will be sent to recipients.</li>
-									  <li>HTML template is used for email's content.</li>
+										<li>Having Sap Commodity Codes (comming from the system data extract) embraced within a string:</li>
+										<br>
+										<img src="images/string.JPG">
+										<br><br>
+										<li>And dictionary with pairs Regex key: Spend Cluster value (written by me):</li>
+										<br>
+										<img src="images/re.JPG">
+										<br><br>
+										<li>Script can decode the Spend Cluster (defined by me) for upcoming Sap Commodity Codes:</li>
+										<br>
+										<img src="images/outcome.jpg">
+										<br><br>
+										<li>We can see 3 codes belog to Office Supplies, 1 to Office Suplies and 1 to Information Technology</li>
 									</ul>
+
+									<p>Conclusions:</p>
+									<ul>
+									  <li>I could use Regex to define searching pattern.</li>
+									  <li>When a specific Sap Commodity Code matches the pattern, script can map it with appropriate Spend Cluster using my_dict Dictionary.</li>
+									  <li>We can treat the script as semi-Machine Learning programm beacause with Regex I teach script to what pattern classify which SAP Commodity Code.</li>
 								</div>
 							</section>
 
@@ -83,7 +99,10 @@
 							<section id="four">
 								<div class="container">
 									<h3>Setup</h3>
-									<p>No specific installation required.</p>
+									<p>Python library installation required.</p>
+									<ul>
+										<li>pip install regex</li>
+									</ul>
 								</div>
 							</section>
 
@@ -91,7 +110,7 @@
 							<section id="five">
 								<div class="container">
 									<h3>Source Code</h3>
-									<p>You can view the source code: <a href="https://github.com/ArturSkrzeta/Bulk-Mailing-in-Outlook/tree/master/project">HERE</a></p>
+									<p>You can view the source code: <a href="https://github.com/ArturSkrzeta/Regular-Expression-with-Python/tree/master/project">HERE</a></p>
 									<p>&nbsp</p>
 								</div>
 							</section>
